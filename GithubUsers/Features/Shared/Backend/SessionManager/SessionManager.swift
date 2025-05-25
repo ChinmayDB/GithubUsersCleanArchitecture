@@ -15,7 +15,7 @@ class SessionManager: SessionManaging {
     
     static let shared = SessionManager(networkService: NetworkService())
     
-    private var token: String = "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"
+    private var token: String = "" // Add Access Token from Github
     private let networkService: NetworkServiceProtocol
     
     private init(networkService: NetworkServiceProtocol) { // Marks as Singleton pattern
